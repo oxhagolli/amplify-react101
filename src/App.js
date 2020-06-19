@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import TodoList from "./ToDo";
 
-class TodoApp extends React.Component {
+class App extends React.Component {
   // Don't use class variables other than state, props
 
   // You can also just say state = {items: [], text: "" }
@@ -52,4 +52,4 @@ class TodoApp extends React.Component {
   };
 }
 
-export default TodoApp;
+export default App;
