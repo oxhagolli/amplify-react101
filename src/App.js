@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import "./ToDo";
+import TodoList from "./ToDo";
 
 class TodoApp extends React.Component {
   // Don't use class variables other than state, props
